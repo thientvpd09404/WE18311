@@ -1,0 +1,102 @@
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: none;
+    background-size: 100% 100%;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 25%;
+    text-align: center;
+}
+
+nav {
+    line-height: 40px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: yellow;
+    background-color: blue;
+}
+
+article {
+    background-color: white;
+    min-height: 400px;
+    width: 75%;
+    text-align: left;
+}
+
+aside {
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+
+footer {
+    border-top: 5px double orange;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 400px;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul ul {
+    position: absolute;
+    display: none;
+}
+
+.menu ul ul a {
+    display: block
+}
+
+.menu ul li :hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3 pixel;
+    width: 200 pixel;
+    background-color: white;
+    box-shadow: 0 0 1 pixel gray;
+}
+
+.menu ul ul a {
+    line-height: 30 pixel;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10 pixel;
+}
+
+.menu ul ul a:hover {
+    background-color: orangered;
+    color: white;
+}
