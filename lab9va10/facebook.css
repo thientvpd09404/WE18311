@@ -1,0 +1,56 @@
+
+div.div_1 h1{
+    color:blue;
+    text-align: center;
+    line-height: 0px;
+}
+div.div_1 h5{
+    color:grey;
+    line-height:0px;
+}
+body{
+    padding: 10px;
+}
+form div.div_3 input  {
+    height: 30px;
+    width: 200px;
+    
+    text-align: ce;
+    padding:0.5%;
+    border-radius: 5px;
+    border-color: rgb(180, 179, 179);
+    background-color: rgb(233, 232, 232);
+}
+form select {
+    border-radius: 3.5px;
+    height: 30px;
+    width: 120px;
+}
+form fieldset {
+    border-radius: 5px;
+    margin:auto ;
+
+}
+label{
+    color: gray;
+}
+form button {
+    text-align: center;
+    background-color: green;
+    color:white;
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color:white;
+    
+    
+}
+div.div_4 {
+text-align: center;
+}
+div.div_2 {
+    color: rgb(92, 90, 90);
+    font-size: 15px;
+}
+
