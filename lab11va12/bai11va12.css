@@ -1,0 +1,203 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid #464646;
+    border-radius: 15px 15px 0px 0px;
+}
+header h3 {
+    padding: 0px 10px 0px 10px;
+    color: rgb(28, 29, 29);
+    font-size: larger;
+    box-sizing: border-box;
+}
+.quantity{
+    text-align: center;
+    padding: 4px 5px 0px 5px ;
+    margin: 25px 10px 20px 15px;
+    border: none solid #181717;
+    border-radius: 15px;
+    color: rgb(67, 70, 67);
+    background-color: rgb(243, 243, 243); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+.status{
+    width: 300px;
+    height: 40px; 
+    color: black; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Email_address{
+    width: 300px;
+    text-align: left; 
+    color: black; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.team{
+    width: 400px;
+    text-align: left;
+    color: black; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: rgb(13, 13, 13);
+    font-size: small;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    border: 2px solid #363535;
+    border-radius:5px;
+    background-color: white;  
+    margin-left: 62%;
+      
+}
+.add_user{
+    color: white;
+   font-size: small;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #676666;
+    border-radius:5px;
+    background-color: rgb(16, 16, 16);
+}
+
+table {
+    border-collapse:collapse ;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    border: 1px solid #6b6767;
+    padding: 5px 10px 30px 20px;    
+}
+td{
+    border: none;
+    text-align: left;
+}
+  
+tr:nth-child(2n+2){
+    background-color: rgb(221, 245, 221);
+}  
+
+body{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.form-button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #181717;
+    border-radius:5px;
+    background-color: white;  
+    position: absolute;
+    left: 30px;  
+    margin-top: -12px;
+}
+.form-button_2{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #181717;
+    border-radius:50px;
+    background-color: white; 
+}
+.name_gmail{
+    color: #545353;
+    font-size: 18px;
+    font-family: none;
+}
+.button_active{
+    width: 70px;
+    height: 20px;
+    padding: 0px 10px 10px 0px;
+    border: 1px solid #181717;
+    border-radius: 10px;
+    text-align: right;
+    color: rgb(36, 148, 8);
+    background-color: rgb(223, 252, 220);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button_active_off{
+    /*  box-sizing: border-box; */
+    width: 70px;
+    padding: 0px 8px 9px 1px;
+    height: 20px;
+    border: 1px solid #181717;
+    border-radius: 10px;
+    text-align: right;
+    color: rgb(72, 73, 72);
+    background-color: rgb(223, 226, 223);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name{
+    width: 130px;
+    height: 30px;
+    font-size: 17px ;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+.frame_button_2{
+    width: 70px;
+    height: 60px;
+}
+.team_design{
+    /* position: absolute;  */
+    padding: 2px 15px 2px 15px ;
+    border: none solid #181717;
+    border-radius: 15px;
+    color: rgb(155, 12, 129);
+    background-color: rgb(233, 228, 233);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team_product{
+    /* position: absolute;  */
+    /* margin-left: 40px; */
+    padding: 2px 15px 2px 15px ;
+    border: none solid #181717;
+    border-radius: 15px;
+    color: rgb(34, 82, 216);
+    background-color: rgb(213, 216, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team_Sofware{
+    padding: 2px 15px 2px 15px ;
+    border: none solid #181717;
+    border-radius: 15px;
+    color: rgb(10, 131, 34);
+    background-color: rgb(212, 226, 213);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.team_operations{
+    padding: 2px 15px 2px 15px ;
+    border: none solid #181717;
+    border-radius: 15px;
+    color: rgb(230, 23, 23);
+    background-color: rgb(248, 193, 193);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.delete {
+    width: 100px;
+    text-align: right;
+    box-sizing: border-box;
+}
+.pen{
+    width: 100px;
+    text-align:center ;
+    box-sizing: border-box;
+}
+div.div_1{
+    padding: 20px;
+    
+}
